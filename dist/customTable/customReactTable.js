@@ -15,19 +15,6 @@ var _search = _interopRequireDefault(require("./search/search"));
 var _tableHeader = _interopRequireDefault(require("./tableHeader/tableHeader"));
 var _searchTable = _interopRequireDefault(require("./utils/searchTable"));
 var _sortTable = _interopRequireDefault(require("./utils/sortTable"));
-/* eslint-disable react-hooks/exhaustive-deps */
-
-/**
- *
- * A complete table component with search, sort and pagination
- * See proptypes for more information about each prop
- *
- * @function CustomReactTable
- *
- * @returns the CustomReactTable component
- *
- */
-
 function CustomReactTable(_ref) {
   var data = _ref.data,
     fieldsSetup = _ref.fieldsSetup,
