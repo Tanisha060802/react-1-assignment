@@ -4,9 +4,6 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 var _react = require("@testing-library/react");
 var _react2 = _interopRequireDefault(require("react"));
 var _customReactTable = _interopRequireDefault(require("./customReactTable"));
-/* eslint-disable testing-library/prefer-screen-queries */
-/* eslint-disable no-undef */
-
 describe('CustomReactTable', function () {
   it('should display the data', function () {
     var data = [{
