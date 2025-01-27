@@ -2,8 +2,6 @@
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault").default;
 var _sortTable = _interopRequireDefault(require("./sortTable"));
-/* eslint-disable no-undef */
-
 describe('sortTable', function () {
   it('sorts the table by ascending order of a specific field value', function () {
     var dataTable = [{
