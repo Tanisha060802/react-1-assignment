@@ -8,16 +8,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = TableHeader;
 var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/slicedToArray"));
 var _react = _interopRequireWildcard(require("react"));
-/**
- *
- * The header part of the custom table component
- *
- * @function TableHeader
- *
- * @returns the TableHeader component
- *
- */
-
 function TableHeader(_ref) {
   var headers = _ref.headers,
     onSorting = _ref.onSorting;
