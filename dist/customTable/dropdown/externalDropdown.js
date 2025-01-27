@@ -9,17 +9,6 @@ require("react-dropdown/style.css");
 require("./react-dropdown.css");
 var _react = _interopRequireDefault(require("react"));
 var _reactDropdown2 = _interopRequireDefault(require("react-dropdown"));
-/**
- *
- * The goal of this wrapper is to setup the external library component
- * in a single place for easier maintenance
- *
- * @function ExternalDropDown
- *
- * @returns a wrapper that contains the react-dropdown library component
- *
- */
-
 function ExternalDropDown(_ref) {
   var name = _ref.name,
     id = _ref.id,
