@@ -2,8 +2,6 @@
 
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault").default;
 var _searchTable = _interopRequireDefault(require("./searchTable"));
-/* eslint-disable no-undef */
-
 describe('searchTable', function () {
   test('returns the expected filtered data according to input', function () {
     var dataTable = [{
